@@ -1,0 +1,24 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "- um bot de discord\r - de pesquisar\r - e com intragação com ia\r ```bash\r meu-bot-discord/          # Pasta raiz do projeto\r ├── .git/                 # Pasta oculta do Git (criada automaticamente)\r ├── .gitignore            # Arquivo pra ignorar arquivos desnecessários (ex.: node_modules)\r ├── README.md             # Documentação do projeto (explicando como instalar e usar)\r ├── package.json          # Configurações do Node.js (dependências, scripts)\r ├── package-lock.json     # Lockfile pro npm (gerado automaticamente)\r ├── .env                  # Arquivo com segredos (ex.: token do bot) - NÃO commite isso!\r ├── index.js              # Código principal do bot\r └── node_modules/         # Pasta com bibliotecas instaladas (gerada pelo npm install) - Ignorada no Git\r     └── discord.js/       # Exemplo de subpasta de uma dependência\r         └── ...           # Arquivos da lib\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuilhermeNantes/AxionBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuilhermeNantes/AxionBot/issues"
+  },
+  "homepage": "https://github.com/GuilhermeNantes/AxionBot#readme",
+  "dependencies": {
+    "discord.js": "^14.23.2",
+    "dotenv": "^17.2.3"
+  }
+}
